@@ -1,9 +1,6 @@
 # Project Goals
 
-* Make small microservices that can be used:
-    - in a docker container
-    - in kubernetes
-    - package can be embedded 
+* Make useful packages, tools, etc. for Go.
 
 # Tools
 
@@ -14,10 +11,10 @@
     - semver - http://semver.org/
 
 * gRPC
-    - preferred communication to and between microservices
+    - preferred communication to and between tools
     - protobuf defined per project
 
-* docker
+* docker - for tools and services.
     - should prefer to FROM alpine
 
 * Go
