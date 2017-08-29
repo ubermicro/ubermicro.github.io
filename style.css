@@ -5,18 +5,22 @@ body {
     text-align: center;
 }
 
-#logo > .cog {
-    fill: #795548;
+.main-text {
+    font-size: 3em;
+    position: fixed;
+    width: 500px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px; /* margin is -0.5 * dimension */
+    margin-top: -100px; 
 }
 
-#logo > .line, #logo > .inner-circle {
-    stroke: #000;
-}
-
-
-#logo {
-    width: 250px;
-    height: 250px;
+.logo {
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -250px;
 }
 
 #view-on-github {
